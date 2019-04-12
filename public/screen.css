@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+
 html {
   height: 100%;
 }
@@ -10,18 +12,10 @@ body {
   background-color: rgb(94, 18, 218);
 }
 
-.header-img {
-  background-image: url(/images/images.jpeg);
-  height: 200px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: transparent;
-  margin: 0;
-  padding: 0;
-}
-
 h1 {
   color: rgb(73, 236, 32);
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 50px;
 }
 
 h2 {
@@ -36,9 +30,13 @@ main {
 ul {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   padding: 0;
   width: 300px;
+}
+
+button {
+  margin: 5px;
 }
 
 .hidden {
@@ -46,6 +44,7 @@ ul {
 }
 
 footer {
-  font-size: 2rem;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 50px;
   color: rgb(73, 236, 32);
 }
